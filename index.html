@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bindle - AI Voice Agent for Law Firms | $250k Pre-Seed Deck</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="deck-container">
+        <!-- Progress Bar -->
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+
+        <!-- Navigation Controls -->
+        <div class="nav-controls">
+            <button id="prevBtn" class="nav-btn" aria-label="Previous slide">←</button>
+            <span id="slideCounter" class="slide-counter">1 / 12</span>
+            <button id="nextBtn" class="nav-btn" aria-label="Next slide">→</button>
+        </div>
+
+        <!-- Slide Container -->
+        <div class="slides-container" id="slidesContainer">
+            
+            <!-- Slide 1: Title -->
+            <div class="slide active" data-slide="1">
+                <div class="slide-content">
+                    <div class="title-header">
+                        <div class="logo">Bindle</div>
+                        <div class="ribbon">$250k Pre-Seed Raise</div>
+                    </div>
+                    <div class="title-main">
+                        <h1 class="main-headline">Emotion-Aware AI Voice Agent for Law Firms</h1>
+                        <p class="sub-headline">Transforming lost leads into revenue with empathetic AI conversations</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2: Problem -->
+            <div class="slide" data-slide="2">
+                <div class="slide-content">
+                    <h2 class="slide-title">Lost Leads Cost Firms $$$</h2>
+                    <div class="problem-content">
+                        <div class="bullet-points">
+                            <div class="bullet-item">
+                                <span class="bullet">•</span>
+                                <span>73% of potential clients never receive follow-up calls</span>
+                            </div>
+                            <div class="bullet-item">
+                                <span class="bullet">•</span>
+                                <span>Average law firm loses $180,000 annually from uncontacted leads</span>
+                            </div>
+                            <div class="bullet-item">
+                                <span class="bullet">•</span>
+                                <span>Manual follow-up processes fail 95% of the time</span>
+                            </div>
+                        </div>
+                        <div class="chart-container">
+                            <svg class="revenue-chart" viewBox="0 0 400 200">
+                                <rect x="50" y="150" width="60" height="40" fill="#2ECC71"/>
+                                <rect x="130" y="100" width="60" height="90" fill="#E74C3C"/>
+                                <rect x="210" y="80" width="60" height="110" fill="#F39C12"/>
+                                <rect x="290" y="60" width="60" height="130" fill="#3498DB"/>
+                                <text x="80" y="175" text-anchor="middle" fill="#222" font-size="12">Q1</text>
+                                <text x="160" y="175" text-anchor="middle" fill="#222" font-size="12">Q2</text>
+                                <text x="240" y="175" text-anchor="middle" fill="#222" font-size="12">Q3</text>
+                                <text x="320" y="175" text-anchor="middle" fill="#222" font-size="12">Q4</text>
+                                <text x="200" y="20" text-anchor="middle" fill="#222" font-weight="600">Lost Revenue ($K)</text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3: Solution -->
+            <div class="slide" data-slide="3">
+                <div class="slide-content">
+                    <h2 class="slide-title">Our Solution</h2>
+                    <div class="solution-steps">
+                        <div class="step">
+                            <div class="step-icon">🔄</div>
+                            <div class="step-title">Sync CRM</div>
+                            <div class="step-desc">Automatically connects to your existing CRM system</div>
+                        </div>
+                        <div class="step">
+                            <div class="step-icon">📞</div>
+                            <div class="step-title">Voice Outreach</div>
+                            <div class="step-desc">AI makes personalized calls to dormant leads</div>
+                        </div>
+                        <div class="step">
+                            <div class="step-icon">📅</div>
+                            <div class="step-title">Book</div>
+                            <div class="step-desc">Schedules qualified consultations automatically</div>
+                        </div>
+                        <div class="step">
+                            <div class="step-icon">💾</div>
+                            <div class="step-title">Update CRM</div>
+                            <div class="step-desc">Feeds call results back to your system</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4: Product UI -->
+            <div class="slide" data-slide="4">
+                <div class="slide-content">
+                    <h2 class="slide-title">Product Dashboard</h2>
+                    <div class="dashboard-container">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/9364c51f-c34d-44f8-a3c2-058e7a767411.png" alt="Bindle Dashboard" class="dashboard-image">
+                        <div class="callout callout-1">
+                            <div class="callout-content">Real-time call analytics</div>
+                        </div>
+                        <div class="callout callout-2">
+                            <div class="callout-content">Lead conversion tracking</div>
+                        </div>
+                        <div class="callout callout-3">
+                            <div class="callout-content">CRM integration status</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5: Market Opportunity -->
+            <div class="slide" data-slide="5">
+                <div class="slide-content">
+                    <h2 class="slide-title">Market Opportunity</h2>
+                    <div class="market-table">
+                        <div class="table-row header">
+                            <div class="cell">Market</div>
+                            <div class="cell">Size</div>
+                            <div class="cell">CAGR</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="cell">TAM (Total Addressable)</div>
+                            <div class="cell highlight">$11.2B</div>
+                            <div class="cell">17.3%</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="cell">SAM (Serviceable Addressable)</div>
+                            <div class="cell highlight">$2.8B</div>
+                            <div class="cell">23.1%</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="cell">SOM (Serviceable Obtainable)</div>
+                            <div class="cell highlight">$56M</div>
+                            <div class="cell">45.2%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 6: Competitive Landscape -->
+            <div class="slide" data-slide="6">
+                <div class="slide-content">
+                    <h2 class="slide-title">Competitive Landscape</h2>
+                    <div class="competitive-table">
+                        <div class="table-row header">
+                            <div class="cell">Feature</div>
+                            <div class="cell">Competitor A</div>
+                            <div class="cell">Competitor B</div>
+                            <div class="cell bindle-col">Bindle</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="cell">Legal-Specific AI</div>
+                            <div class="cell">❌</div>
+                            <div class="cell">❌</div>
+                            <div class="cell bindle-col">✅</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="cell">Emotion Detection</div>
+                            <div class="cell">❌</div>
+                            <div class="cell">❌</div>
+                            <div class="cell bindle-col">✅</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="cell">CRM Integration</div>
+                            <div class="cell">⚠️</div>
+                            <div class="cell">✅</div>
+                            <div class="cell bindle-col">✅</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="cell">Voice Quality</div>
+                            <div class="cell">⚠️</div>
+                            <div class="cell">⚠️</div>
+                            <div class="cell bindle-col">✅</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7: Business Model -->
+            <div class="slide" data-slide="7">
+                <div class="slide-content">
+                    <h2 class="slide-title">Pricing Tiers</h2>
+                    <div class="pricing-tiers">
+                        <div class="tier">
+                            <h3>Associate</h3>
+                            <div class="price">$497<span>/month</span></div>
+                            <div class="minutes">500 minutes included</div>
+                            <div class="target">Solo & Small Firms</div>
+                        </div>
+                        <div class="tier featured">
+                            <h3>Partner</h3>
+                            <div class="price">$997<span>/month</span></div>
+                            <div class="minutes">1,500 minutes included</div>
+                            <div class="target">Mid-Size Firms</div>
+                        </div>
+                        <div class="tier">
+                            <h3>Enterprise</h3>
+                            <div class="price">$1,997<span>/month</span></div>
+                            <div class="minutes">5,000 minutes included</div>
+                            <div class="target">Large Firms</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 8: Unit Economics -->
+            <div class="slide" data-slide="8">
+                <div class="slide-content">
+                    <h2 class="slide-title">Unit Economics</h2>
+                    <div class="metrics-table">
+                        <div class="table-row header">
+                            <div class="cell">Metric</div>
+                            <div class="cell">Our Performance</div>
+                            <div class="cell">Industry Benchmark</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="cell">Customer Acquisition Cost</div>
+                            <div class="cell highlight">$150</div>
+                            <div class="cell">$300-500</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="cell">Lifetime Value</div>
+                            <div class="cell highlight">$12,000</div>
+                            <div class="cell">$8,000</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="cell">LTV:CAC Ratio</div>
+                            <div class="cell highlight">80:1</div>
+                            <div class="cell">3:1</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="cell">Gross Margin</div>
+                            <div class="cell highlight">85%</div>
+                            <div class="cell">70-80%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 9: Go-to-Market -->
+            <div class="slide" data-slide="9">
+                <div class="slide-content">
+                    <h2 class="slide-title">Go-to-Market Strategy</h2>
+                    <div class="gtm-columns">
+                        <div class="gtm-column">
+                            <h3>Direct Sales</h3>
+                            <ul>
+                                <li>Legal conference outreach</li>
+                                <li>LinkedIn lead generation</li>
+                                <li>Cold email campaigns</li>
+                                <li>Demo scheduling</li>
+                            </ul>
+                        </div>
+                        <div class="gtm-column">
+                            <h3>Partnerships</h3>
+                            <ul>
+                                <li>CRM vendor integrations</li>
+                                <li>Legal tech resellers</li>
+                                <li>Bar association partnerships</li>
+                                <li>Consultant referrals</li>
+                            </ul>
+                        </div>
+                        <div class="gtm-column">
+                            <h3>Content</h3>
+                            <ul>
+                                <li>Legal industry thought leadership</li>
+                                <li>Case study publications</li>
+                                <li>Webinar series</li>
+                                <li>SEO content strategy</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 10: Financial Projections -->
+            <div class="slide" data-slide="10">
+                <div class="slide-content">
+                    <h2 class="slide-title">5-Year ARR Projection</h2>
+                    <div class="chart-container">
+                        <svg class="arr-chart" viewBox="0 0 500 300">
+                            <polyline points="50,250 150,200 250,120 350,80 450,40" stroke="#2ECC71" stroke-width="4" fill="none"/>
+                            <circle cx="50" cy="250" r="6" fill="#2ECC71"/>
+                            <circle cx="150" cy="200" r="6" fill="#2ECC71"/>
+                            <circle cx="250" cy="120" r="6" fill="#2ECC71"/>
+                            <circle cx="350" cy="80" r="6" fill="#2ECC71"/>
+                            <circle cx="450" cy="40" r="6" fill="#2ECC71"/>
+                            
+                            <text x="50" y="270" text-anchor="middle" fill="#222" font-size="14">Year 1</text>
+                            <text x="150" y="270" text-anchor="middle" fill="#222" font-size="14">Year 2</text>
+                            <text x="250" y="270" text-anchor="middle" fill="#222" font-size="14">Year 3</text>
+                            <text x="350" y="270" text-anchor="middle" fill="#222" font-size="14">Year 4</text>
+                            <text x="450" y="270" text-anchor="middle" fill="#222" font-size="14">Year 5</text>
+                            
+                            <text x="30" y="255" text-anchor="middle" fill="#222" font-size="12">$1M</text>
+                            <text x="30" y="205" text-anchor="middle" fill="#222" font-size="12">$5M</text>
+                            <text x="30" y="125" text-anchor="middle" fill="#222" font-size="12">$15M</text>
+                            <text x="30" y="85" text-anchor="middle" fill="#222" font-size="12">$28M</text>
+                            <text x="30" y="45" text-anchor="middle" fill="#222" font-size="12">$42M</text>
+                            
+                            <text x="250" y="20" text-anchor="middle" fill="#222" font-weight="600" font-size="16">Annual Recurring Revenue</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 11: Use of Funds -->
+            <div class="slide" data-slide="11">
+                <div class="slide-content">
+                    <h2 class="slide-title">Use of Funds</h2>
+                    <div class="funds-layout">
+                        <div class="donut-container">
+                            <svg class="donut-chart" viewBox="0 0 200 200">
+                                <circle cx="100" cy="100" r="80" fill="none" stroke="#E8E8E8" stroke-width="20"/>
+                                <circle cx="100" cy="100" r="80" fill="none" stroke="#2ECC71" stroke-width="20" 
+                                        stroke-dasharray="201 502" stroke-dashoffset="0" transform="rotate(-90 100 100)"/>
+                                <circle cx="100" cy="100" r="80" fill="none" stroke="#3498DB" stroke-width="20" 
+                                        stroke-dasharray="175 502" stroke-dashoffset="-201" transform="rotate(-90 100 100)"/>
+                                <circle cx="100" cy="100" r="80" fill="none" stroke="#F39C12" stroke-width="20" 
+                                        stroke-dasharray="126 502" stroke-dashoffset="-376" transform="rotate(-90 100 100)"/>
+                                <text x="100" y="105" text-anchor="middle" fill="#222" font-weight="600" font-size="18">$250K</text>
+                            </svg>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-marker" style="background: #2ECC71;"></div>
+                                <div class="timeline-content">
+                                    <strong>40% Product Development</strong><br>
+                                    $100,000 - AI model training, platform development
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker" style="background: #3498DB;"></div>
+                                <div class="timeline-content">
+                                    <strong>35% Sales & Marketing</strong><br>
+                                    $87,500 - Customer acquisition, brand building
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker" style="background: #F39C12;"></div>
+                                <div class="timeline-content">
+                                    <strong>25% Operations</strong><br>
+                                    $62,500 - Team hiring, infrastructure
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 12: Team & CTA -->
+            <div class="slide" data-slide="12">
+                <div class="slide-content">
+                    <h2 class="slide-title">Meet the Team</h2>
+                    <div class="team-section">
+                        <div class="founder">
+                            <div class="founder-name">Sarah Chen, CEO</div>
+                            <div class="founder-bio">Former VP of Technology at LegalZoom, 10+ years in legal tech</div>
+                        </div>
+                        <div class="founder">
+                            <div class="founder-name">Michael Rodriguez, CTO</div>
+                            <div class="founder-bio">Ex-Google AI Research, PhD in Natural Language Processing</div>
+                        </div>
+                    </div>
+                    <div class="cta-section">
+                        <h3 class="cta-title">Let's Transform Legal Intake Together</h3>
+                        <p class="cta-subtitle">Ready to unlock your firm's hidden revenue potential?</p>
+                        <button class="cta-button" id="contactButton">
+                            <a href="mailto:hello@bindle.ai" target="_blank">Contact Us</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

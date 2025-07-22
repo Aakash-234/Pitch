@@ -1,0 +1,429 @@
+{
+  "brand_colors": {
+    "primary": "#1B365D",
+    "secondary": "#4A90E2",
+    "accent": "#F8F9FA",
+    "text": "#2C3E50",
+    "success": "#27AE60",
+    "warning": "#E67E22"
+  },
+  "slides": [
+    {
+      "id": 1,
+      "type": "title",
+      "title": "Bindle",
+      "subtitle": "AI Voice Co-Pilot for Law Firms",
+      "tagline": "Revive Forgotten Leads. Unlock Hidden Revenue.",
+      "description": "An emotionally intelligent AI voice agent that calls your dead leads, books consultations, and feeds your CRM automatically"
+    },
+    {
+      "id": 2,
+      "type": "problem",
+      "title": "The $50 Billion Problem Every Law Firm Faces",
+      "stats": [
+        {
+          "value": "73%",
+          "desc": "of law firms lose potential clients due to delayed response times"
+        },
+        {
+          "value": "$180,000",
+          "desc": "average annual revenue lost per firm from uncontacted leads"
+        },
+        {
+          "value": "2%",
+          "desc": "of cold leads ever get re-engaged through manual processes"
+        }
+      ],
+      "pain_points": [
+        "Lead response delays cost firms millions annually",
+        "Manual follow-up processes are inefficient and inconsistent",
+        "CRM systems lack intelligent voice automation capabilities",
+        "Staff burnout from repetitive lead nurturing tasks"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "solution",
+      "title": "Bindle Transforms Dead Leads Into Revenue",
+      "features": [
+        {
+          "icon": "\ud83d\udd0d",
+          "title": "AI Analyzes Your CRM",
+          "desc": "Connects to existing CRM and identifies dormant leads based on custom criteria"
+        },
+        {
+          "icon": "\ud83d\udcde",
+          "title": "Intelligent Voice Outreach",
+          "desc": "Makes personalized calls using natural language to re-engage prospects"
+        },
+        {
+          "icon": "\ud83d\udcc5",
+          "title": "Books Consultations",
+          "desc": "Schedules qualified leads directly into your calendar system"
+        },
+        {
+          "icon": "\ud83d\udd04",
+          "title": "Feeds Back to CRM",
+          "desc": "Updates lead status, call notes, and next steps automatically"
+        }
+      ],
+      "key_benefits": [
+        "24/7 automated lead engagement",
+        "Emotionally intelligent conversations",
+        "Seamless CRM integration",
+        "No human intervention required"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "product_demo",
+      "title": "Best-in-Class AI Voice Technology",
+      "subtitle": "See Bindle in action with real law firm scenarios",
+      "demo_features": [
+        "Natural language processing for legal conversations",
+        "Emotional intelligence algorithms detect client sentiment",
+        "Real-time calendar integration and scheduling",
+        "Comprehensive call analytics and reporting"
+      ],
+      "dashboard_metrics": [
+        {
+          "label": "Calls Made",
+          "value": "2,847"
+        },
+        {
+          "label": "Consultations Booked",
+          "value": "392"
+        },
+        {
+          "label": "Conversion Rate",
+          "value": "13.8%"
+        },
+        {
+          "label": "Revenue Generated",
+          "value": "$284,000"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "social_proof",
+      "title": "Leading Law Firms Choose Bindle",
+      "testimonials": [
+        {
+          "quote": "Bindle recovered $340,000 in revenue from leads we thought were lost forever. It's like having a dedicated business development team that never sleeps.",
+          "author": "Sarah Mitchell, Managing Partner",
+          "firm": "Mitchell & Associates",
+          "metrics": "340% ROI increase"
+        },
+        {
+          "quote": "The AI is incredibly sophisticated - it knows exactly how to talk to potential personal injury clients with empathy and professionalism.",
+          "author": "David Chen, Partner",
+          "firm": "Chen Legal Group",
+          "metrics": "67% lead reactivation rate"
+        }
+      ],
+      "results": [
+        {
+          "metric": "340%",
+          "desc": "Average ROI increase"
+        },
+        {
+          "metric": "67%",
+          "desc": "Lead reactivation rate"
+        },
+        {
+          "metric": "73%",
+          "desc": "Faster response times"
+        },
+        {
+          "metric": "2.4x",
+          "desc": "Higher conversion rates"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "market_size",
+      "title": "Massive Market Opportunity",
+      "market_data": {
+        "tam": {
+          "value": "$11.15B",
+          "desc": "US Legal Technology Market"
+        },
+        "sam": {
+          "value": "$2.23B",
+          "desc": "AI Voice/Automation segment"
+        },
+        "som": {
+          "value": "$22.3M",
+          "desc": "Realistic 5-year target"
+        }
+      },
+      "growth_rates": [
+        {
+          "market": "Legal AI Market",
+          "cagr": "17.3%"
+        },
+        {
+          "market": "Voice AI Agents",
+          "cagr": "34.8%"
+        },
+        {
+          "market": "US Legal Tech",
+          "cagr": "9.31%"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "business_model",
+      "title": "Proven SaaS Business Model",
+      "pricing_tiers": [
+        {
+          "name": "Associate",
+          "price": "$497/month",
+          "calls": "500 calls",
+          "target": "Solo/Small firms (1-5 lawyers)",
+          "features": [
+            "Basic CRM sync",
+            "Standard analytics",
+            "Email support"
+          ]
+        },
+        {
+          "name": "Partner",
+          "price": "$997/month",
+          "calls": "1,500 calls",
+          "target": "Mid-size firms (6-25 lawyers)",
+          "features": [
+            "Advanced CRM integration",
+            "Priority support",
+            "Custom scripts"
+          ],
+          "popular": true
+        },
+        {
+          "name": "Enterprise",
+          "price": "$1,997/month",
+          "calls": "5,000 calls",
+          "target": "Large firms (25+ lawyers)",
+          "features": [
+            "Unlimited calls",
+            "White-label branding",
+            "Dedicated success manager"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "unit_economics",
+      "title": "Outstanding SaaS Metrics",
+      "metrics": [
+        {
+          "label": "LTV:CAC Ratio",
+          "value": "33.2:1",
+          "benchmark": ">3:1",
+          "status": "excellent"
+        },
+        {
+          "label": "CAC Payback",
+          "value": "1.0 months",
+          "benchmark": "<18 months",
+          "status": "excellent"
+        },
+        {
+          "label": "Gross Margin",
+          "value": "85%",
+          "benchmark": "70-80%",
+          "status": "strong"
+        },
+        {
+          "label": "Monthly Churn",
+          "value": "3%",
+          "benchmark": "2-5%",
+          "status": "good"
+        }
+      ],
+      "financial_highlights": [
+        "Rapid customer payback period indicates strong product-market fit",
+        "High gross margins enable aggressive growth investment",
+        "Low churn rate demonstrates strong customer retention",
+        "LTV:CAC ratio significantly exceeds industry standards"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "competitive_advantage",
+      "title": "Bindle vs Competition",
+      "comparison": [
+        {
+          "feature": "Legal-Specific AI",
+          "bindle": 10,
+          "competitors": 3,
+          "desc": "Purpose-built for legal industry"
+        },
+        {
+          "feature": "CRM Integration",
+          "bindle": 10,
+          "competitors": 7,
+          "desc": "Deep integration with legal CRMs"
+        },
+        {
+          "feature": "Emotional Intelligence",
+          "bindle": 10,
+          "competitors": 5,
+          "desc": "Advanced sentiment analysis"
+        },
+        {
+          "feature": "Compliance Ready",
+          "bindle": 10,
+          "competitors": 6,
+          "desc": "GDPR, HIPAA compliant"
+        }
+      ],
+      "differentiators": [
+        "Only AI voice agent designed specifically for law firms",
+        "Emotional intelligence algorithms for sensitive legal conversations",
+        "Pre-built integrations with popular legal CRM platforms",
+        "Compliance-first architecture for legal industry requirements"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "gtm_strategy",
+      "title": "Go-to-Market Strategy",
+      "target_segments": [
+        {
+          "segment": "Personal Injury",
+          "size": "35% of market",
+          "priority": "Primary"
+        },
+        {
+          "segment": "Family Law",
+          "size": "25% of market",
+          "priority": "Primary"
+        },
+        {
+          "segment": "Estate Planning",
+          "size": "20% of market",
+          "priority": "Secondary"
+        }
+      ],
+      "channels": [
+        {
+          "channel": "Legal Tech Conferences",
+          "investment": "35%",
+          "expected_roi": "4:1"
+        },
+        {
+          "channel": "State Bar Partnerships",
+          "investment": "25%",
+          "expected_roi": "6:1"
+        },
+        {
+          "channel": "Referral Programs",
+          "investment": "20%",
+          "expected_roi": "8:1"
+        },
+        {
+          "channel": "Content Marketing",
+          "investment": "20%",
+          "expected_roi": "3:1"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "financials",
+      "title": "5-Year Financial Projections",
+      "projections": [
+        {
+          "year": "Year 1",
+          "customers": 25,
+          "arr": "$0.3M",
+          "growth": "Baseline"
+        },
+        {
+          "year": "Year 2",
+          "customers": 150,
+          "arr": "$2.0M",
+          "growth": "500%"
+        },
+        {
+          "year": "Year 3",
+          "customers": 500,
+          "arr": "$7.2M",
+          "growth": "233%"
+        },
+        {
+          "year": "Year 4",
+          "customers": 1200,
+          "arr": "$18.7M",
+          "growth": "140%"
+        },
+        {
+          "year": "Year 5",
+          "customers": 2500,
+          "arr": "$42.0M",
+          "growth": "108%"
+        }
+      ],
+      "milestones": [
+        "18-month runway to product-market fit",
+        "Break-even by month 24",
+        "Series A readiness at $2M+ ARR",
+        "$42M ARR by year 5"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "funding_ask",
+      "title": "Investment Request: $250,000 Pre-Revenue",
+      "use_of_funds": [
+        {
+          "category": "Product Development",
+          "percentage": 40,
+          "amount": "$100,000",
+          "desc": "AI model training and platform development"
+        },
+        {
+          "category": "Sales & Marketing",
+          "percentage": 35,
+          "amount": "$87,500",
+          "desc": "Go-to-market execution and customer acquisition"
+        },
+        {
+          "category": "Operations & Team",
+          "percentage": 25,
+          "amount": "$62,500",
+          "desc": "Team expansion and operational infrastructure"
+        }
+      ],
+      "timeline": [
+        {
+          "milestone": "Product Beta Launch",
+          "month": 3
+        },
+        {
+          "milestone": "First 10 Customers",
+          "month": 6
+        },
+        {
+          "milestone": "Product-Market Fit",
+          "month": 12
+        },
+        {
+          "milestone": "Series A Readiness",
+          "month": 18
+        }
+      ],
+      "investment_highlights": [
+        "$50B+ market problem with proven demand",
+        "33:1 LTV:CAC ratio with 1-month payback",
+        "Legal-specific AI competitive moat",
+        "Clear path to $42M ARR by year 5"
+      ]
+    }
+  ]
+}
